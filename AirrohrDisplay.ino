@@ -113,8 +113,6 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("MAC:");
 
-
-  //sscanf (string2char(WiFi.macAddress()), "%[^:]:%[^:]:%[^:]:%[^:]:%[^:]:%[^:]", &mac1, &mac2, &mac3, &mac4, &mac5, &mac6);
   sscanf (WiFi.macAddress().c_str(), "%[^:]:%[^:]:%[^:]:%[^:]:%[^:]:%[^:]", &mac, &mac[2], &mac[4], &mac[6], &mac[8], &mac[10]);
   lcd.print(mac);
 
