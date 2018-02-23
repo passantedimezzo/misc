@@ -1,7 +1,7 @@
 /**
    AirrohrDisplay.ino
 
-    Created by: passantedimezzo
+    Created by: @passantedimezzo
     
     LED 1602 wiring
 
