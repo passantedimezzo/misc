@@ -2,6 +2,13 @@
    AirrohrDisplay.ino
 
     Created by: passantedimezzo
+    
+    LED 1602 wiring
+
+    SCL -> D1
+    SDA -> D2
+    VCC -> VU
+    GND -> GND
 
 */
 
